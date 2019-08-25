@@ -1,0 +1,549 @@
+section {
+  position: relative;
+  background-color: white;
+}
+
+.section {
+  padding: 6.1rem 1.5rem;
+}
+
+.section#styles {
+  padding-bottom: 0.4rem;
+}
+
+.section.hero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*
+ * ::::::::::: Introduction Section Styles :::::::::::
+ */
+.introduction {
+  background: transparent url("../../images/background/grunge.png") no-repeat center top ;
+  background-color: transparent;
+  padding: 5rem 1.5rem 1rem;
+  margin-top: -30px;
+}
+
+.introduction .introduction-logo {
+  position: absolute;
+  bottom: 32%;
+  left: -75px;
+}
+
+.introduction p:not(.heading-title-top) {
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.introduction .content ul,
+.introduction .content ol {
+  font-size: 16px;
+}
+
+.introduction .heading-title-top {
+  background: transparent url("../../images/background/title.png") no-repeat left top ;
+  padding-left: 50px;
+}
+
+.introduction .heading-title-top.has-text-centered {
+  background: transparent url("../../images/background/title.png") no-repeat center top ;
+  padding-left: 0;
+}
+
+.introduction .works-latest .works-latest-item.video-icon {
+  margin-top: 50px;
+}
+
+.introduction .works-latest .works-latest-item .works-latest-item-icon.style-2 {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.introduction .works-latest .works-latest-item .works-latest-item-icon.style-2 .label {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #171717;
+}
+
+.introduction .works-latest .works-latest-item .works-latest-item-icon.style-2 .icon {
+  background-color: #f14234;
+  color: white;
+}
+
+.introduction .works-latest .works-latest-item .works-latest-item-icon.style-2 .icon:hover {
+  background-color: #0a0a0a;
+}
+
+.introduction.about-us {
+  padding: 7rem 1.5rem 0;
+}
+
+.introduction.about-us p:not(.heading-title-top) {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: auto;
+  color: white;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon > * {
+  text-align: center;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon .icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  opacity: .8;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon .icon i {
+  font-size: 25px;
+  font-size: 1.5625rem;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon .icon:hover {
+  opacity: 1;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon.style-2 {
+  top: 55%;
+  left: 55%;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon.style-2 .icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  opacity: 1;
+  color: #121212;
+  background-color: white;
+}
+
+.introduction.about-us .works-latest .works-latest-item .works-latest-item-icon.style-2 .icon:hover {
+  color: #e83c2e;
+}
+
+.introduction.contact-us .heading-title.style-3 {
+  padding-bottom: 5px;
+}
+
+.introduction.contact-us .heading-title-top {
+  padding-bottom: 10px;
+}
+
+.introduction.contact-us .widget-links ul li {
+  font-size: 18px;
+}
+
+.introduction.contact-us .widget-links ul li span {
+  font-size: 21px;
+  margin-right: 10px;
+}
+
+.introduction.contact-us .widget-links ul li a {
+  color: #494949;
+}
+
+.introduction.contact-us .widget-links ul li a:hover {
+  color: #e83c2e;
+}
+
+.introduction.contact-us form .input,
+.introduction.contact-us form .textarea {
+  border-width: 2px;
+}
+
+.offers-section {
+  padding: 5rem 1.5rem 1rem;
+}
+
+.offers-section img {
+  min-width: 602px;
+}
+
+.about-boxes-section {
+  background: #121212 url("../../images/background/back.png") no-repeat center top ;
+  background-color: #121212;
+  padding: 10rem 1.5rem 8rem;
+}
+
+.about-boxes-section .boxes-style-5 .box-item .icon {
+  color: #fcba1c;
+  margin-bottom: 40px;
+}
+
+.about-boxes-section .boxes-style-5 .box-item .icon i {
+  font-size: 60px;
+}
+
+.about-boxes-section .boxes-style-5 .box-item h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 0.9rem;
+}
+
+.about-boxes-section .boxes-style-5 .box-item h3 a {
+  color: white;
+}
+
+.about-boxes-section .boxes-style-5 .box-item:hover .icon {
+  color: white;
+}
+
+.about-boxes-section .boxes-style-5 .box-item:hover h3 a {
+  color: #fcba1c;
+}
+
+.about-boxes-section.menu {
+  background: #121212 url("../../images/background/back-2.png") no-repeat center top ;
+  background-color: #121212;
+  padding: 6.5rem 1.5rem 6rem;
+}
+
+.about-boxes-section.menu .heading-title.style-3 {
+  padding-bottom: 0;
+}
+
+.combo-section {
+  padding-bottom: 3rem;
+}
+
+.combo-section .box.menu-list .menu-line {
+  width: 280px;
+}
+
+.about-just-background {
+  background-color: transparent;
+  background: transparent url("../../images/background/grunge-2.png") no-repeat center bottom ;
+  margin-bottom: -50px;
+  z-index: 1;
+  padding: 3.5rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Services Section Styles :::::::::::
+ */
+.services {
+  background-color: #fafafa;
+  padding-bottom: 6.5rem;
+}
+
+/*
+ * ::::::::::: Services Section Styles :::::::::::
+ */
+.stories {
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(68%, white), color-stop(32%, #fafafa));
+  background: linear-gradient(to bottom, white 68%, #fafafa 32%);
+}
+
+/*
+ * ::::::::::: Works Section Styles :::::::::::
+ */
+.works-list {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+/*
+ * ::::::::::: Testimonials Section Styles :::::::::::
+ */
+.testimonials-list {
+  background-color: #121212;
+  padding: 5rem 1.5rem;
+}
+
+.testimonials-list .heading-title-top,
+.testimonials-list .heading-title {
+  color: white;
+}
+
+.menu-section,
+.instagram-section {
+  background: transparent url("../../images/background/grunge-2.png") no-repeat center bottom ;
+  background-color: transparent;
+  padding-bottom: 9rem;
+  margin-bottom: -30px;
+  z-index: 1;
+}
+
+.menu-section.about-us .boxes-style-5 .box-item,
+.instagram-section.about-us .boxes-style-5 .box-item {
+  padding: 50px 0 10px;
+}
+
+.menu-section.about-us .boxes-style-5 .box-item h3,
+.instagram-section.about-us .boxes-style-5 .box-item h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 0.9rem;
+}
+
+.menu-section.about-us .boxes-style-5 .box-item:hover h3 a,
+.instagram-section.about-us .boxes-style-5 .box-item:hover h3 a {
+  color: #fcba1c;
+}
+
+.instagram-section {
+  padding-bottom: 8rem;
+}
+
+.testimonials-section .testimonials:before {
+  display: none;
+}
+
+.testimonials-section .testimonials .testimonials-item img {
+  display: none;
+}
+
+.testimonials-section .testimonials .testimonials-item p {
+  padding: 1.2rem 7rem 3.2rem 6rem;
+  color: white;
+  font-size: 28px;
+}
+
+.testimonials-section .testimonials .testimonials-item p:before, .testimonials-section .testimonials .testimonials-item p:after {
+  display: none;
+}
+
+.testimonials-section .testimonials .testimonials-item h3 {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.testimonials-section .testimonials .testimonials-item h3:before {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.testimonials-column {
+  background: transparent url("../../images/background/black.png") no-repeat center center ;
+  padding-top: 140px;
+  padding-bottom: 69px;
+}
+
+.subscribe-form-section {
+  padding: 8rem 1.5rem 7rem;
+}
+
+.subscribe-form-section .heading-title.style-3 {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 1px;
+  padding-bottom: 0px;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.subscribe-form-section .heading-title-bottom {
+  color: white;
+  padding-bottom: 0px;
+  font-size: 14.5px;
+}
+
+.subscribe-form-section .subscribe-form.style-1 .button {
+  background-color: #fcba1c;
+  color: white;
+}
+
+.subscribe-form-section .subscribe-form.style-1 .button:hover {
+  background-color: #121212;
+}
+
+.subscribe-form-section .subscribe-form.style-1 input {
+  border: none;
+}
+
+.subscribe-form-section .subscribe-form.style-1 input:focus {
+  border: none;
+}
+
+/*
+ * ::::::::::: Pricing Table Section Styles :::::::::::
+ */
+.pricingtable {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Subscribe Section Styles :::::::::::
+ */
+.subscribe-section {
+  background-color: #fafafa;
+  padding: 7.3rem 1.5rem;
+}
+
+.subscribe-section .heading-title {
+  padding-bottom: 27px;
+  margin-bottom: 0 !important;
+}
+
+.subscribe-section .heading-title:after {
+  display: none;
+}
+
+.subscribe-section p {
+  text-align: center;
+  color: #797979;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 40px;
+}
+
+/*
+ * ::::::::::: Latest News Section Styles :::::::::::
+ */
+.latest-news,
+.slider {
+  background-color: white;
+}
+
+.latest-news {
+  background-color: #fafafa;
+  padding-bottom: 7rem;
+}
+
+/*
+ * ::::::::::: Get In Touch Section Styles :::::::::::
+ */
+.get-in-touch {
+  background-color: #fafafa;
+  padding-bottom: 6.5rem;
+}
+
+.get-in-touch .box-item p {
+  margin-bottom: 15px;
+}
+
+/*
+ * ::::::::::: Instagram Feed Section Styles :::::::::::
+ */
+.instagram-feed {
+  background: white;
+}
+
+.site-footer-bottom .section {
+  padding: 3rem 1.5rem 2.6rem;
+  background: white;
+}
+
+/*
+ * ::::::::::: Intro About Section Styles :::::::::::
+ */
+.intro-about {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Team Section Styles :::::::::::
+ */
+.our-team {
+  background-color: white;
+  padding-bottom: 4rem;
+}
+
+/*
+ * ::::::::::: Counters Section Styles :::::::::::
+ */
+.counters {
+  background-color: #fafafa;
+}
+
+/*
+ * ::::::::::: Contact form Section Styles :::::::::::
+ */
+.contact-form {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Hero Custom Sections Styles :::::::::::
+ */
+.hero.carousel {
+  padding: 5rem 0 4rem;
+}
+
+.hero.instagram-feed {
+  padding-bottom: 0;
+}
+
+/*
+ * ::::::::::: Blog Section Styles :::::::::::
+ */
+.content-with-sidebar {
+  background-color: white;
+  padding: 6rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Portfolio Single Work Section Styles :::::::::::
+ */
+.portfolio-single {
+  background-color: white;
+  padding: 6rem 1.5rem;
+}
+
+/*
+ * ::::::::::: Portfolio Related Works Section Styles :::::::::::
+ */
+.related-works {
+  background-color: white;
+}
+
+/*
+ * ::::::::::: Portfolio WorksNavigation Section Styles :::::::::::
+ */
+.works-navigation {
+  background-color: #fafafa;
+  padding: 4rem 1.5rem;
+}
+
+body.header-side-navigation:not(.side-mini) .offers-section img {
+  min-width: 100%;
+}
+
+body.header-side-navigation:not(.side-mini) .testimonials-column {
+  padding-top: 88px;
+  padding-bottom: 61px;
+}
+
+body.header-side-navigation:not(.side-mini) .testimonials-column .testimonials .testimonials-item {
+  max-width: 85%;
+}
+
+body.header-side-navigation:not(.side-mini) .testimonials-column .testimonials .testimonials-item p {
+  font-size: 23px;
+}
+
+body.side-mini .testimonials-column {
+  padding-top: 119px;
+}
+
+/*# sourceMappingURL=../_maps/modules/sections.css.map */

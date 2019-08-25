@@ -1,0 +1,272 @@
+/*
+ * ::::::::::: Page Title Styles :::::::::::
+ */
+.page-title .hero-body h3,
+.page-title .hero-body .subtitle, .page-title.is-medium h3, .page-title.is-large h3, .page-title.is-fullheight h3 {
+  text-transform: capitalize;
+}
+
+.page-title {
+  background-color: #fafafa;
+  padding-bottom: 0 !important;
+}
+
+.page-title.mini-height .hero-body {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.page-title.mini-height .hero-body h1,
+.page-title.mini-height .hero-body .title {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.page-title.mini-height .hero-body h3,
+.page-title.mini-height .hero-body .subtitle,
+.page-title.mini-height .hero-body .breadcrumb {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.page-title.is-primary .hero-body h3,
+.page-title.is-primary .hero-body .subtitle {
+  color: white;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li + li:before {
+  color: #db392c;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li.is-active a {
+  color: white;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li a:hover {
+  color: white;
+}
+
+.page-title.is-secondary .hero-body h1,
+.page-title.is-secondary .hero-body .title {
+  color: white;
+}
+
+.page-title.is-secondary .hero-body h3,
+.page-title.is-secondary .hero-body .subtitle {
+  color: #929292;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li + li:before {
+  color: #797979;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li.is-active a {
+  color: #929292;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li a:hover {
+  color: #929292;
+}
+
+.page-title.is-secondary .hero-body .button {
+  border: 1px solid #e83c2e;
+}
+
+.page-title.is-secondary .hero-body .button:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.page-title.has-text-centered .hero-body .breadcrumb {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-bottom: 1rem;
+}
+
+.page-title.has-text-centered .hero-body .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+.page-title .hero-body {
+  padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
+}
+
+.page-title .hero-body .button {
+  margin: 0 4px;
+}
+
+.page-title .hero-body .button:first-child {
+  margin-left: 0;
+}
+
+.page-title .hero-body .button:last-child {
+  margin-right: 0;
+}
+
+.page-title .hero-body h1,
+.page-title .hero-body .title {
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 29px;
+  font-size: 1.8125rem;
+  color: #121212;
+}
+
+.page-title .hero-body h3,
+.page-title .hero-body .subtitle {
+  letter-spacing: 1px;
+  margin-top: -8px !important;
+  color: #797979;
+  font-size: 15.5px;
+  font-size: 0.96875rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.page-title .hero-body .level .level-right .header-menu-icons.social:before {
+  display: none;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social:before {
+  display: none;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+.page-title.is-medium .hero-body > div:before, .page-title.is-large .hero-body > div:before, .page-title.is-fullheight .hero-body > div:before {
+  display: inline-block;
+  content: '';
+  height: 49px;
+  width: 1px;
+  background-color: white;
+  opacity: .45;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+
+.page-title.is-medium h1, .page-title.is-large h1, .page-title.is-fullheight h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-size: 4.0625rem;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: 600;
+}
+
+.page-title.is-medium h3, .page-title.is-large h3, .page-title.is-fullheight h3 {
+  font-size: 23px;
+  font-size: 1.4375rem;
+  letter-spacing: 1.8px;
+  margin-top: 15px !important;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.page-title.services {
+  background: #fafafa url("../../images/page-title/services.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.about {
+  background: #fafafa url("../../images/page-title/about.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.blog, .page-title.blog-single {
+  background: #fafafa url("../../images/page-title/blog.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.contact {
+  background: #fafafa url("../../images/page-title/contact.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.our-menu {
+  background: #fafafa url("../../images/page-title/blog.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.portfolio {
+  background: #fafafa url("../../images/page-title/portfolio.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.portfolio .hero-body > div:before {
+  background-color: #de4b40;
+}
+
+.page-title.parallax-background, .page-title.ken-burns {
+  background: transparent;
+}
+
+.page-title.ken-burns {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-title .ken-burns-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center center;
+  background-size: cover;
+  -webkit-animation: kenburns 40s infinite;
+          animation: kenburns 40s infinite;
+}
+
+.page-title.is-medium .hero-body > div:before, .page-title.is-large .hero-body > div:before, .page-title.is-fullheight .hero-body > div:before {
+  display: none;
+}
+
+body.page-index .page-title.is-fullheight .hero-body {
+  padding-top: 7.5rem;
+}
+
+body.page-index .page-title.is-fullheight .hero-body #viewport-food-smoke {
+  position: absolute;
+  right: 50%;
+}
+
+body.page-index .page-title.is-fullheight .hero-body h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+body.page-index .page-title.is-fullheight .hero-body h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 29px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 20px !important;
+}
+
+body.header-background-primary .page-title.is-fullheight,
+body.header-background-primary .hero.is-fullheight, body.header-background-dark .page-title.is-fullheight,
+body.header-background-dark .hero.is-fullheight {
+  min-height: 94vh;
+}
+
+body.header-background .page-title.is-fullheight,
+body.header-background .hero.is-fullheight {
+  min-height: 91vh;
+}
+
+body.header-topbar .page-title.is-fullheight,
+body.header-topbar .hero.is-fullheight {
+  min-height: 86vh;
+}
+
+/*# sourceMappingURL=../_maps/modules/page-title.css.map */

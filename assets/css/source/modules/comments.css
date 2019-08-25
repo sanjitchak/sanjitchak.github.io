@@ -1,0 +1,124 @@
+/*
+ * ::::::::::: Comments Styles :::::::::::
+ */
+.comment-list .comment-author,
+.comments .comment-author, .comment-list .comment-date,
+.comments .comment-date, .comment-list .comment-reply,
+.comments .comment-reply {
+  text-transform: uppercase;
+}
+
+.comment-list,
+.comments {
+  margin-bottom: 3.5rem;
+  margin-top: 1.8rem;
+  border-bottom: 1px solid #F0F0F0;
+  padding-bottom: 2.5rem;
+}
+
+.comment-list .media + .media,
+.comment-list .comment + .comment,
+.comment-list .comment-box + .comment-box,
+.comments .media + .media,
+.comments .comment + .comment,
+.comments .comment-box + .comment-box {
+  border-top: 1px solid #F0F0F0;
+  margin-top: 2rem;
+  padding-top: 2.5rem;
+}
+
+.comment-list .media .media,
+.comment-list .comment .comment,
+.comment-list .comment-box .comment-box,
+.comments .media .media,
+.comments .comment .comment,
+.comments .comment-box .comment-box {
+  border-top: 1px solid #F0F0F0;
+  padding-top: 2.5rem;
+  margin-top: 2rem;
+}
+
+.comment-list .media-left,
+.comments .media-left {
+  margin-right: 1.8rem;
+}
+
+.comment-list .media-right,
+.comments .media-right {
+  margin-left: 1.8rem;
+}
+
+.comment-list .avatar img,
+.comments .avatar img {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  max-width: 100px;
+}
+
+.comment-list .avatar img:hover,
+.comments .avatar img:hover {
+  opacity: .8;
+}
+
+.comment-list .comment-body .level,
+.comments .comment-body .level {
+  margin-bottom: .8rem;
+}
+
+.comment-list .comment-author,
+.comments .comment-author {
+  color: #333333;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  display: inline-block;
+  margin-right: 16px;
+  letter-spacing: 1px;
+}
+
+.comment-list .comment-author a,
+.comments .comment-author a {
+  color: #333333;
+}
+
+.comment-list .comment-author a:hover,
+.comments .comment-author a:hover {
+  color: #e83c2e;
+}
+
+.comment-list .comment-date,
+.comments .comment-date {
+  display: inline-block;
+  color: #de4b40;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12.5px;
+  font-size: 0.78125rem;
+  margin-top: 3px;
+  letter-spacing: 1.3px;
+}
+
+.comment-list .comment-date a,
+.comments .comment-date a {
+  color: #de4b40;
+}
+
+.comment-list .comment-date a:hover,
+.comments .comment-date a:hover {
+  color: #e83c2e;
+}
+
+.comment-list .comment-reply,
+.comments .comment-reply {
+  font-size: 13.5px;
+  font-size: 0.84375rem;
+  display: inline-block;
+  letter-spacing: 1.4px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.comment-list p,
+.comments p {
+  font-size: 14.5px;
+  font-size: 0.90625rem;
+}
+
+/*# sourceMappingURL=../_maps/modules/comments.css.map */

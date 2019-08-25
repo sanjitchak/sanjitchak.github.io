@@ -1,0 +1,93 @@
+/*
+ * ::::::::::: Custom Styles :::::::::::
+ * Note: use this file to add or override any other styles.
+ * DON'T EDIT TEMPLATE CSS/SCSS FILES DIRECTLY, JUST USE THIS FILE.
+ */
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>span, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.active>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-ancestor>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-item>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current-menu-parent>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current>span, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>a, body.header-side-navigation header .main-navigation>ul>li.mega-menu>ul>li>ul>li.current_page_item>span, header .main-navigation li.active>a, header .main-navigation li.active>span, header .main-navigation li.current-menu-ancestor>a, header .main-navigation li.current-menu-ancestor>span, header .main-navigation li.current-menu-item>a, header .main-navigation li.current-menu-item>span, header .main-navigation li.current-menu-parent>a, header .main-navigation li.current-menu-parent>span, header .main-navigation li.current>a, header .main-navigation li.current>span, header .main-navigation li.current_page_item>a, header .main-navigation li.current_page_item>span, header .main-navigation li.mega-menu>ul>li.active>a, header .main-navigation li.mega-menu>ul>li.active>span, header .main-navigation li.mega-menu>ul>li.current-menu-ancestor>a, header .main-navigation li.mega-menu>ul>li.current-menu-ancestor>span, header .main-navigation li.mega-menu>ul>li.current-menu-item>a, header .main-navigation li.mega-menu>ul>li.current-menu-item>span, header .main-navigation li.mega-menu>ul>li.current-menu-parent>a, header .main-navigation li.mega-menu>ul>li.current-menu-parent>span, header .main-navigation li.mega-menu>ul>li.current>a, header .main-navigation li.mega-menu>ul>li.current>span, header .main-navigation li.mega-menu>ul>li.current_page_item>a, header .main-navigation li.mega-menu>ul>li.current_page_item>span {
+    color: #ee1c25;
+}
+
+.input, .textarea {
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+
+.widget-links ul li span {
+    color: #ee1c25;
+}
+
+::selection {
+    background-color: #ee1c25;
+}
+
+body .header-menu-icons.social .icon {
+    background-color: #ee1c25;
+}
+
+.tp-caption.offer-price {
+    color: #ee1c25;
+}
+
+.tp-caption.offer-price {
+    background-image: url("../images/background/profile.jpeg");
+}
+
+body.header-menu-border-bottom header .main-navigation>ul>li.active:after, body.header-menu-border-bottom header .main-navigation>ul>li.current-menu-ancestor:after, body.header-menu-border-bottom header .main-navigation>ul>li.current-menu-item:after, body.header-menu-border-bottom header .main-navigation>ul>li.current-menu-parent:after, body.header-menu-border-bottom header .main-navigation>ul>li.current:after, body.header-menu-border-bottom header .main-navigation>ul>li.current_page_item:after, body.header-menu-border-bottom header .main-navigation>ul>li:hover:after {
+    border-bottom: 1.5px solid #ee1c25;
+}
+
+.heading-title-top.style-2 {
+    font-family: Oswald, sans-serif;
+    padding-top: 20px;
+}
+
+body.footer-background.dark-color:not(.primary-color) footer a, body.footer-background.dark-color:not(.primary-color) footer p {
+    color: #F0F0F0;
+}
+
+.blog-post .entry-header .entry-title {
+    font-size: 25px;
+}
+
+.widget-title {
+    font-size: 18px;
+}
+
+.owl-carousel .owl-dots .owl-dot span {
+    opacity: 1;
+}
+
+.testimonials-column {
+    padding-top: 138px;
+}
+
+.works-latest .works-latest-item .works-latest-item-meta h5 a, .works-latest .works-latest-item .works-latest-item-meta h3 a, .works-latest .works-latest-item .works-latest-item-meta h5, .works-latest-item .works-latest-item-meta h3 {
+    opacity: 1;
+}
+
+body .image-hover figure img {
+    min-height: auto!important;
+}
+
+@media screen and (max-width:768px) {
+    body .works-latest .works-latest-item .works-latest-item-meta h3 {
+        font-size: 18px;
+    }
+    body .image-hover figure img {
+        min-height: auto!important;
+    }
+    .works-latest .works-latest-item .works-latest-item-meta h5 {
+        font-family: Oswald, sans-serif;
+        font-weight: normal;
+    }
+    body .testimonials .testimonials-item p {
+        padding-left: 10px!important;
+        padding-right: 15px!important;
+    }
+    .testimonials.style-1 .testimonials-item h3 {
+        font-size: 15px;
+    }
+}
+
+/*# sourceMappingURL=_maps/custom.css.map */

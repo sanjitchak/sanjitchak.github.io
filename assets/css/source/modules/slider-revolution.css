@@ -1,0 +1,167 @@
+/*
+ * ::::::::::: Slider Revolution Custom Styles :::::::::::
+ */
+.tp-bgimg:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tparrows {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tparrows.uranus {
+  width: 55px;
+  height: 50px;
+  background-color: transparent !important;
+}
+
+.tparrows.uranus:before {
+  font-family: 'Ionicons';
+  font-size: 55px;
+  font-size: 3.4375rem;
+  width: 55px;
+  height: 50px;
+}
+
+.tparrows.uranus.tp-rightarrow:before {
+  content: '\f3d1';
+}
+
+.tparrows.uranus.tp-leftarrow:before {
+  content: '\f3cf';
+}
+
+.tparrows.uranus:hover:before {
+  color: white;
+}
+
+.hermes .tp-bullet {
+  width: 11px;
+  height: 11px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hermes .tp-bullet:after {
+  background-color: transparent;
+}
+
+.hermes .tp-bullet:hover, .hermes .tp-bullet.selected {
+  background-color: white;
+}
+
+.tp-loader.spinner2 {
+  background-color: #db392c;
+}
+
+.tp-caption.large_text {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 90px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  line-height: 1.1 !important;
+  text-shadow: none !important;
+}
+
+.tp-caption.small_text {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  text-shadow: none !important;
+  line-height: 1.8 !important;
+  padding-top: 25px !important;
+  min-width: 192px !important;
+}
+
+.tp-caption.offer-price {
+  background-color: #e62819;
+  width: 150px;
+  height: 150px;
+  padding: 28px 10px 40px 0 !important;
+  text-align: center;
+  border-radius: 100%;
+  color: white;
+}
+
+.tp-caption.offer-price span.text {
+  color: #ffda45;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase !important;
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px !important;
+  padding-left: 10px !important;
+}
+
+.tp-caption.offer-price span.price {
+  font-family: 'Kalam', cursive !important;
+  font-weight: 700 !important;
+  font-size: 55px !important;
+  line-height: 1.4 !important;
+  letter-spacing: -4px !important;
+}
+
+.tp-caption.offer-price span.dollar {
+  font-family: 'Kalam', cursive !important;
+  font-weight: normal !important;
+  font-size: 27px !important;
+  line-height: 1.4 !important;
+  vertical-align: text-bottom;
+}
+
+.tp-caption.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3.45em;
+  padding-left: calc(3em - 1px) !important;
+  padding-right: calc(3em - 1px) !important;
+  font-weight: 500 !important;
+  letter-spacing: 1.5px !important;
+  font-size: 15.5px;
+  font-size: 0.96875rem;
+}
+
+.tp-caption.button:hover {
+  background-color: #333333;
+  color: white;
+}
+
+#viewport-food-smoke,
+#viewport-food-smoke-2 {
+  position: relative;
+  width: 560px;
+  height: 600px;
+  overflow: hidden;
+  margin: 280px auto;
+  z-index: 100;
+}
+
+#viewport-food-smoke .smoke,
+#viewport-food-smoke-2 .smoke {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: url("../../images/background/smoke.png") no-repeat;
+  bottom: 150px;
+  margin-left: 0px;
+}
+
+#viewport-food-smoke-2 {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=../_maps/modules/slider-revolution.css.map */
