@@ -2,6 +2,8 @@ body {
     margin: 0px;
 }
 
+/* Body header */
+
 #body-header {
     height: 65vh;
     background-image: url(image/mouse.jpg);
@@ -11,20 +13,48 @@ body {
     margin-top: -16px;
 }
 
-#body-header-list {
+/* horizontal lists */
+
+.horizontal-list {
     list-style-type: none;
-    overflow: hidden;
-    padding: 0;
+    padding-left: 0;
 }
 
-#body-header-list li {
-    float: left;
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
 }
 
-#body-header-list a {
-    display: block;
+.horizontal-list li a {
     color: white;
-    text-align: center;
-    padding: 14px 17px;
+    /* padding: 14px 17px; */
     text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+    padding: 14px 17px;
+}
+
+.horizontal-list li a:hover {
+    color: lightgray;
+    /* */
+    border-bottom: 1px solid white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    top: 10px;
+}
+
+header h1 {
+    color: white;
+    margin-top: 140px;
+    font-size: 2.5rem;
+    margin-bottom: -9px;
+}
+
+.fa {
+    color: lightgrey;
 }
