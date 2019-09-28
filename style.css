@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+#body-header {
+    height: 65vh;
+    background-image: url(image/mouse.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: -16px;
+}
+
+#body-header-list {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+#body-header-list li {
+    float: left;
+}
+
+#body-header-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+}
