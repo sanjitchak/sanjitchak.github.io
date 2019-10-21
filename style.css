@@ -96,3 +96,24 @@ nav {
     margin: auto;
     margin-bottom: 35px;
 }
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n) {
+    background-color: white;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+.section-heading {
+    width: auto;
+    padding: 20px 10p 10px;
+    font-weight: 400;
+}
