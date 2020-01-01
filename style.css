@@ -131,7 +131,9 @@ section:nth-child(2n + 1) {
 .mb75px {
   margin-bottom: 75px;
 }
-
+#falist {
+  color: rgb(40, 87, 164);
+}
 #portfolio-container {
   box-sizing: border-box;
   display: flex;
@@ -212,7 +214,7 @@ nav .icon {
     width: 23%;
     left: 67%;
     padding: 10px;
-    
+
     background-color: grey;
     box-shadow: 5px 5px 5px black;
   }
