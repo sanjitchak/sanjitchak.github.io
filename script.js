@@ -1,5 +1,5 @@
 
-var navLink = document.getElementsByTagName("a");
+var navLink = document.querySelectorAll("nav a");
 var about = document.getElementById("about");
 var portfolio = document.getElementById("portfolio");
 
