@@ -88,6 +88,33 @@
 			src="https://www.facebook.com/tr?id=627116161235781&amp;ev=PageView&amp;noscript=1" /></noscript>
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
+	<script>
+		fbq('track', 'ViewContent',
+			// begin required parameter object
+			{
+				value: 1.99,
+				currency: 'INR',
+				content_type: 'product', // required property
+				content_ids: '1592320591pages_commerce_sell5ee8e24fc23747411449548' // required property, if not using 'contents' property
+			}
+			// end required parameter object
+		);
+	</script>
+
+	<script>
+		function onClick() {
+			fbq('track', 'AddToCart',
+				// begin required parameter object
+				{
+					value: 199.00,
+					currency: 'INR',
+					content_type: 'product', // required property
+					content_ids: '1592320591pages_commerce_sell5ee8e24fc23747411449548' // required property, if not using 'contents' property
+				}
+				// end required parameter object
+			);
+		};
+	</script>
 </head>
 
 <body class="product_page-template-default single single-product_page postid-24339">
@@ -110,7 +137,8 @@
 					<div id="header-cta" class="header-section">
 						<a class='amz-url'
 							href='https://amazon.in/gp/aws/cart/add.html?ASIN.1=B084MFX95C&amp;Quantity.1=1'><button
-								type='button' class='button cta-button'>Add to Cart in Amazon</button></a> </div>
+								onClick="onClick()" type='button' class='button cta-button'>Add to Cart in
+								Amazon</button></a> </div>
 
 				</div>
 			</header>

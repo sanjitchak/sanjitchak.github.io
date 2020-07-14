@@ -28,6 +28,33 @@
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=2693524854227332&ev=PageView&noscript=1" /></noscript>
     <!-- End Facebook Pixel Code -->
+    <script>
+        fbq('track', 'ViewContent',
+            // begin required parameter object
+            {
+                value: .5,
+                currency: 'INR',
+                content_type: 'product', // required property
+                content_ids: '201' // required property, if not using 'contents' property
+            }
+            // end required parameter object
+        );
+    </script>
+
+    <script>
+        function onClick() {
+            fbq('track', 'AddToCart',
+                // begin required parameter object
+                {
+                    value: .5,
+                    currency: 'INR',
+                    content_type: 'product', // required property
+                    content_ids: '201' // required property, if not using 'contents' property
+                }
+                // end required parameter object
+            );
+        };
+    </script>
 
     <title>Full Stack Web Developer Portfolio. JamStack/NodeJs Specialist.
     </title>

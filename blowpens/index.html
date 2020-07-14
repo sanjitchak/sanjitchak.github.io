@@ -75,7 +75,7 @@
 		!function (f, b, e, v, n, t, s) {
 			if (f.fbq) return; n = f.fbq = function () {
 				n.callMethod ?
-				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
 			}; if (!f._fbq) f._fbq = n;
 			n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
 			t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
@@ -88,6 +88,33 @@
 			src="https://www.facebook.com/tr?id=627116161235781&amp;ev=PageView&amp;noscript=1" /></noscript>
 	<!-- DO NOT MODIFY -->
 	<!-- End Facebook Pixel Code -->
+	<script>
+		fbq('track', 'ViewContent',
+		  // begin required parameter object
+		  {
+			value: 2.49,
+			currency: 'INR',
+			content_type: 'product', // required property
+			content_ids: '1592313998pages_commerce_sell5ee8c88e366754f97415402' // required property, if not using 'contents' property
+		  }
+		  // end required parameter object
+		);
+		</script>
+		
+		<script>
+		function onClick() {
+		fbq('track', 'AddToCart',
+		  // begin required parameter object
+		  {
+			value: 249.00,
+			currency: 'INR',
+			content_type: 'product', // required property
+			content_ids: '1592313998pages_commerce_sell5ee8c88e366754f97415402' // required property, if not using 'contents' property
+		  }
+		  // end required parameter object
+		);
+		};
+		</script>
 </head>
 
 <body class="product_page-template-default single single-product_page postid-24339">
@@ -110,7 +137,8 @@
 					<div id="header-cta" class="header-section">
 						<a class='amz-url'
 							href='https://amazon.in/gp/aws/cart/add.html?ASIN.1=B084MFT58N&amp;Quantity.1=1'><button
-								type='button' class='button cta-button'>Add to Cart in Amazon</button></a> </div>
+								onClick="onClick()" type='button' class='button cta-button'>Add to Cart in
+								Amazon</button></a> </div>
 
 				</div>
 			</header>
@@ -128,7 +156,7 @@
 									<span class="cta-percent-off-percentsign">%</span>
 									<span class="cta-percent-off-text">off</span>
 								</div>
-			
+
 							</div>
 							<div id="product-content">
 								<img width='500' height='500'
