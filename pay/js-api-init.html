@@ -9,6 +9,7 @@
     
     <script src="https://paytabs.com/express/v4/paytabs-express-checkout.js"></script>
     <script type="text/javascript">
+    function myFunction() {
         Paytabs.initWithIframe(document.body,{
           settings: {
             secret_key: "mujkv4uiEvxpOuSjLd3DW9n5YNaEuszQWSbsWFKBai0ZMTjy7mb3wz9unk8RMIHJBScyyW9JfaI141AboMfUlooJIxAvfhfRarpI",
@@ -38,6 +39,10 @@
             postal_code: "12345"
           }
         });
+
+
+    }
     </script>
+    <a   onclick="myFunction();">Item</a>
   </body>
 </html>
