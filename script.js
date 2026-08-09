@@ -1,36 +1,20 @@
+const menuButton = document.querySelector('.menu-button');
+const navigation = document.querySelector('#site-nav');
 
-var navLink = document.querySelectorAll("nav a");
-var about = document.getElementById("about");
-var portfolio = document.getElementById("portfolio");
+if (menuButton && navigation) {
+  menuButton.addEventListener('click', () => {
+    const open = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!open));
+    navigation.classList.toggle('is-open', !open);
+  });
 
-
-function scrollFunction(targetPosition) {
-    var currentPosition = 0;
-    console.log(targetPosition);
-    var scrollInterval = setInterval(function () {
-        if (currentPosition >= targetPosition) {
-            clearInterval(scrollInterval);
-            return;
-        }
-        console.log(currentPosition);
-        window.scrollBy(0, 50);
-        currentPosition += 50;
-    }, 50);
-};
-
-
-
-for (let i = 0; i < navLink.length; i++) {
-    navLink[i].addEventListener('click', function (event) {
-        event.preventDefault(); //prevent anchor TAG scroll
-
-       if (navLink[i].textContent.includes("About")) {
-            scrollFunction(about.getBoundingClientRect()["y"]);
-        } 
-        else if (navLink[i].textContent.includes("Portfolio")) {
-            scrollFunction(portfolio.getBoundingClientRect()["y"]);
-        } 
-
-    });
-
+  navigation.addEventListener('click', (event) => {
+    if (event.target.matches('a')) {
+      menuButton.setAttribute('aria-expanded', 'false');
+      navigation.classList.remove('is-open');
+    }
+  });
 }
+
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
