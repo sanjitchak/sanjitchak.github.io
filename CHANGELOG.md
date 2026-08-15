@@ -7,6 +7,7 @@
 - Preserved the existing personal-business homepage, responsive cream/gold design, policy pages, robots file, sitemap, pricing, contact details, and exact refund wording.
 - Added a dedicated any-amount PhonePe checkout at `/checkout`, a verified payment-status page at `/checkout/status`, and protected order, status, and webhook APIs.
 - Added Sites-compatible Worker/Vite hosting, D1 migrations, local tests, and deployment metadata for a new project that is separate from Finest Clients.
+- Removed the GitHub Pages `CNAME` file after the Sites custom domains became active. GitHub does not allow Pages deactivation for the special `sanjitchak.github.io` user-site repository, so removing this file releases its custom-domain association while Sites remains authoritative.
 
 ### Behavior and configuration
 
@@ -28,4 +29,4 @@
 
 ### Rollback
 
-- Repoint the apex A records and `www` CNAME to GitHub Pages, re-enable GitHub Pages for `master`, and remove the Sites custom domains. Revert this commit only if the checkout source should also be removed. Removing the D1 database would permanently delete payment audit records and is not part of routine rollback.
+- Repoint the apex and `www` records to GitHub Pages, restore the root `CNAME` file with `sanjitchakrabarti.com`, and remove the Sites custom domains. Revert this commit only if the checkout source should also be removed. Removing the D1 database would permanently delete payment audit records and is not part of routine rollback.
